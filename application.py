@@ -13,7 +13,7 @@ application = Flask(__name__)  # created flask instance
 login_manager = LoginManager(application)
 #if 'RDS_DB_NAME' in os.environ:
 # application.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://admin:49Acornford@money-management-database2.crrkqquhxzpq.ap-southeast-2.rds.amazonaws.com:3306/money_db2'
-application.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://admin:49Acornford@money-management-database2.crrkqquhxzpq.ap-southeast-2.rds.amazonaws.com:3306/money_db2'
+application.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://admin:Cellfone01@izzy-205db.cuvba3o0ve3x.ap-southeast-2.rds.amazonaws.com:3306/izzy_205db'
 #else:
    # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:@localhost/moneyappdb'  # added the users database
 application.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
